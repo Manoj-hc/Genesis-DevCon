@@ -1,0 +1,626 @@
+{% extends 'home/base.html' %}
+
+{% load static %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/agenda.css' %}">
+{% endblock %}
+
+
+{% block content %}
+<section id="schedules" class="schedule section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title-header text-center">
+            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Agenda</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+
+          <div class="col-12 mb-5 text-center">
+              <ul class="nav nav-tabs wow fadeInLeft" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="Day1-HallA-tab" data-toggle="tab" href="#Day1-Hall-A" role="tab" aria-controls="Day1-Hall-A" aria-expanded="true">
+                    <div class="item-text">
+                      <h4>Day - 1</h4>
+                      <h5>Hall A</h5>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Day1-HallB-tab" data-toggle="tab" href="#Day1-Hall-B" role="tab" aria-controls="Day1-Hall-B">
+                    <div class="item-text">
+                      <h4>Day - 1</h4>
+                      <h5>Hall B</h5>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Day2-HallA-tab" data-toggle="tab" href="#Day2-Hall-A" role="tab" aria-controls="Day2-Hall-A">
+                    <div class="item-text">
+                      <h4>Day - 2</h4>
+                      <h5>Hall A</h5>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Day2-HallB-tab" data-toggle="tab" href="#Day2-Hall-B" role="tab" aria-controls="Day2-Hall-B">
+                    <div class="item-text">
+                      <h4>Day - 2</h4>
+                      <h5>Hall B</h5>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-12">
+              <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
+                <div class="schedule-tab-content col-12 clearfix" >
+                    <div class="tab-content" id="myTabContent" >
+                        <div class="tab-pane fade show active" id="Day1-Hall-A" role="tabpanel" aria-labelledby="Day1-HallA-tab">
+                            <table class="table table-striped table-responsive">
+                                <thead style="text-align: center">
+                                    <tr>
+                                        <th>Time Slot</th>
+                                        <th>Activity</th>
+                                        <th>Speaker</th>
+                                        <th>Designation</th>
+                                        <th>Topic</th>
+                                    </tr>
+                                </thead>
+                                <tbody style="text-align: center">
+                                    <tr style="background: #414042">
+                                        <td>8:30 - 9:00</td>
+                                        <td>Registration</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 - 9:10</td>
+                                        <td>Welcome Note</td>
+                                        <td>Raghu Mohan</td>
+                                        <td>CEO, IBC Media</td>
+                                        <td>Journey of IBC Media & 
+                                            Genesis developer program</td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>9:15 - 9:55</td>
+                                        <td>Tech Talk</td>
+                                        <td>Shyam Doddavula</td>
+                                        <td>Associate Vice President, Infosys</td>
+                                        <td>Decentralized Identity Management using Distributed Ledger Technology</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00 - 10:40</td>
+                                        <td>Tech Talk</td>
+                                        <td>Shay Zluf</td>
+                                        <td>Core Developer, Prysmatic Labs, Israel</td>
+                                        <td>Mining Into Validating - ETH2.0</td>
+                                    </tr>
+                                    <tr style="background:#141414;">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">10:45 - 11:00 / Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:05 - 11:25</td>
+                                        <td>Tech talk</td>
+                                        <td>Abhishek Pitti<br>
+                                            Avinash Pitti
+                                        </td>
+                                        <td>Founder & CEO, Nucleus Vision<br>
+                                            CTO, Nucleus Vision</td>
+                                        <td>Best practices in Blockchain and IoT </td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>11:30 - 12:10</td>
+                                        <td>Tech Talk</td>
+                                        <td>Satya Lokam</td>
+                                        <td>Senior Researcher, Microsoft Research lab, India</td>
+                                        <td>Zero Knowledge Proofs for Blockchains</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:15 - 12:55</td>
+                                        <td>Panel Discussion</td>
+                                        <td>Darshan Bathija<br>
+                                            Venkat Kumar<br>
+                                            Jayavaradhan Sambedu<br>
+                                            Tushar Verma<br>
+                                            Moderator:Benson Samuel
+                                        <td style="vertical-align:initial;">CEO, Bank of Hodlers<br>
+                                            Vice President, Kotak Mahindra Bank<br>
+                                            Co-Founder & CTO, Curl Analytics<br>
+                                            Principal, LuneX Ventures<br>
+                                            Director Of Technology, Tokenyz
+                                        </td>
+                                        <td>Blockchain in Fintech</td>
+                                    </tr>
+                                    <tr style="background:#141414">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">13:00 - 14:00 / Lunch Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 14:40</td>
+                                        <td>Tech Talk</td>
+                                        <td>Dilip Krishnaswamy</td>
+                                        <td>Vice President- New Technology Initiatives, Reliance Jio Infocomm Ltd</td>
+                                        <td>Developing Blockchain applications for emerging programmable virtualized infrastructure</td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>14:45 - 15:25</td>
+                                        <td>Tech Talk</td>
+                                        <td>Praphul Chandra</td>
+                                        <td>Founder, Koinearth</td>
+                                        <td>The Importance of Blockcahains for AI</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:30 - 16:10</td>
+                                        <td>Panel Discussion</td>
+                                        <td>Jaynti Kanani<br>
+                                            Vikram Nikkam<br>
+                                            Mayur Relekar<br>
+                                            Nilotpal Mukherjee<br>
+                                            Moderator: Shantanu Sharma
+                                        </td>
+                                        <td style="vertical-align:initial;">Co-founder & CEO, Matic Network<br>
+                                            Founder & CEO, InstaCrypto<br>
+                                            Founder, Newfang<br>
+                                            CBO, Marlin Protocol<br>
+                                            Talk Show Host, Hard Fork
+                                            </td>
+                                        <td>Blockchain startup ecosystem in India</td>
+                                    </tr>
+                                    <tr style="background:#141414">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">16:15 - 16:30 / Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:30 - 17:10</td>
+                                        <td>Panel Discussion</td>
+                                        <td>Gokul Alex<br>
+                                            Rajesh Dhuddu<br>
+                                            Mahesh Narayanan<br>
+                                            Manish Jain<br>
+                                            Suresh P<br>
+                                            Moderator: Ravi Vyas</td>
+                                        <td>Associate Director, PwC<br>
+                                            Blockchain Leader, Tech Mahindra<br>
+                                            Principal PM Manager,Microsoft<br>
+                                            Partner - Digital Consulting, KPMG<br>
+                                            CTO, ELEVEN01<br>
+                                            Co-Founder & CEO, NextStepHQ
+                                             </td>
+                                        <td>Implementation & adoption of Blockchain</td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>17:15 - 17:55</td>
+                                        <td>Tech Talk</td>
+                                        <td>Caleb Kow</td>
+                                        <td>President, Tezos Southeast Asia</td>
+                                        <td>Tezos - Decentralised ecosystem and what it means for India</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 18:40</td>
+                                        <td>Tech Talk</td>
+                                        <td>Yanislav Malahov</td>
+                                        <td>Founder, aeternity</td>
+                                        <td>Aeternity and the decentralised future</td>
+                                    </tr>
+                                  
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="tab-pane fade" id="Day1-Hall-B" role="tabpanel" aria-labelledby="Day1-HallB-tab">
+                            <table class="table table-striped table-responsive">
+                                <thead style="text-align: center;">
+                                    <tr>
+                                        <th>Time Slot</th>
+                                        <th>Activity</th>
+                                        <th>Speaker</th>
+                                        <th>Designation</th>
+                                        <th>Topic</th>
+                                    </tr>
+                                </thead>
+                                <tbody style="text-align: center">
+                                    <tr style="background: #414042">
+                                        <td>8:30 - 9:00</td>
+                                        <td>Registration</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 - 9:10</td>
+                                        <td>Welcome Note-Main Stage</td>
+                                        <td>Raghu Mohan</td>
+                                        <td>CEO, IBC Media</td>
+                                        <td>Journey of IBC Media &
+                                            Genesis developer program</td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>9:15 - 9:55</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00 - 10:40 </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr style="background: #141414">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">10:45 - 11:00 / Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:15 - 11:55</td>
+                                        <td>Workshop</td>
+                                        <td>Arpit Agarwal</td>
+                                        <td>Blockchain Engineer, Matic Network</td>
+                                        <td>Layer-2 scaling with Matic</td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>12:00 - 12:50</td>
+                                        <td>Tech Talk</td>
+                                        <td>Debdeep Mukhopadhyay</td>
+                                        <td>Professor, IIT Kharagpur</td>
+                                        <td>Hardware security and blockchains: Opportunities and challenges</td>
+                                    </tr>
+                                    <tr style="background: #141414">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">13:00 - 14:00 / Lunch Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>14:00 - 14:40</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:45 - 15:25</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>15:30 - 16:10</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr style="background: #141414;">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">16:15 - 16:30 / Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>16:30 - 17:10</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:15 - 17:55</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>18:00 - 18:40</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="tab-pane fade" id="Day2-Hall-A" role="tabpanel" aria-labelledby="Day2-HallA-tab">
+                            <table class="table table-striped table-responsive">
+                                <thead style="text-align: center">
+                                    <tr>
+                                        <th>Time Slot</th>
+                                        <th>Activity</th>
+                                        <th>Speaker</th>
+                                        <th>Designation</th>
+                                        <th>Topic</th>
+                                    </tr>
+                                </thead>
+                                <tbody style="text-align: center">
+                                    <tr style="background: #414042">
+                                        <td>8:30 - 9:00</td>
+                                        <td>Registration</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 - 9:10</td>
+                                        <td>Announcing Aeternity starfleet India</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>9:15 - 9:55</td>
+                                        <td>Tech Talk</td>
+                                        <td>Chang Ee-Chien</td>
+                                        <td>Associate professor - Computer Science, NUS, Singapore</td>
+                                        <td>Trusted Blockchain Applications with Trusted Execution Environment</td>
+                                    </tr> 
+                                    <tr>
+                                        <td>10:00 - 10:40</td>
+                                        <td>Tech Talk</td>
+                                        <td>Sunny Jain</td>
+                                        <td>Head of Product - Blockchain, KyberNetwork</td>
+                                        <td>Decentralized Liquidity, A Building Block for A Better Financial System</td>    
+                                    </tr>
+                                    <tr style="background: #141414">
+                                        <td style="border-left:none" ></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">10:45 - 11:00 / Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:05 - 11:45</td>
+                                        <td>Tech Talk</td>
+                                        <td>Sathya Peri</td>
+                                        <td>Professor, IIT Hyderabad</td>
+                                        <td>An Efficient Framework for Optimistic Concurrent Execution of Smart Contracts</td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>11:50 - 12:30</td>
+                                        <td>Panel discussion</td>
+                                        <td>Sanjeev Narsipur<br>
+                                            Raghavendra Deshmukh<br>
+                                            Jayasankar Pillai<br>
+                                            Moderator: Mohan Ramaswamy</td>
+                                        <td>Managing Director, Accenture<br>
+                                            Director - Blockchain, SAP<br>
+                                            Associate Partner, IBM<br>
+                                            Co-Founder, Terrago Logistics Pvt Ltd
+                                        </td>
+                                        <td>Blockchain & Supply Chain</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:35 - 12:55</td>
+                                        <td>Launch</td>
+                                        <td>Ausaf Ahmed<br>
+                                            Sanjay Bisen
+                                        </td>
+                                        <td>CEO, ELEVEN01<br>
+                                            CEO & President, WaveNet Solutions
+                                        </td>
+                                        <td>Tech stack of the future</td>
+                                    </tr>
+                                    <tr style="background: #141414">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">13:00 - 14:00 / Lunch Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 14:40</td>
+                                        <td>Tech Talk</td>
+                                        <td>Pankaj S Dayama</td>
+                                        <td>Senior Researcher, IBM India Research Laboratory</td>
+                                        <td>Unlocking the value of blockchain networks with privacy-preserving technologies</td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>14:45 - 15:25</td>
+                                        <td>Tech Talk</td>
+                                        <td>Dumitrel Loghin</td>
+                                        <td>Research Fellow, NUS, Singapore</td>
+                                        <td>Blockchain on Lowpower nodes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:30 - 16:10</td>
+                                        <td>Law</td>
+                                        <td>Dr Pavan Duggal</td>
+                                        <td>Advocate (Cyberlaw), Supreme Court of India</td>
+                                        <td>Legality of blockchain in India</td>
+                                    </tr>
+                                    <tr style="background: #141414;">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">16:15 - 16:30 / Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:30 - 17:10</td>
+                                        <td>Tech Talk</td>
+                                        <td>Hung Dang</td>
+                                        <td>Research Fellow, NUS, Singapore</td>
+                                        <td>Towards Scaling Blockchain Systems via Sharding</td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>17:15 - 17:55</td>
+                                        <td>Panel discussion</td>
+                                        <td>Archana Ramakrishnan<br>
+                                            Sukriti Jalali<br>
+                                            Avinash Pitti<br>
+                                            Moderator: Munir Mohammed
+                                        </td>
+                                        <td style="vertical-align:initial;">Director - Innovation, Conduent Labs<br>
+                                            Head - IoT & Blockchain, TCS<br>
+                                            CTO, Nucleus Vision<br>
+                                            Senior Programme Manager, IEEE
+                                        </td>
+                                        <td>Blockchain & IoT</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 18:40</td>
+                                        <td>Tech Talk</td>
+                                        <td>John deVadoss</td>
+                                        <td>Head - Development, NEO blockchain</td>
+                                        <td>One thing developers forget about while building blockchain apps</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="tab-pane fade" id="Day2-Hall-B" role="tabpanel" aria-labelledby="Day2-HallB-tab">
+                            <table class="table table-striped table-responsive">
+                                <thead style="text-align: center">
+                                    <tr>
+                                        <th>Time Slot</th>
+                                        <th>Activity</th>
+                                        <th>Speaker</th>
+                                        <th>Designation</th>
+                                        <th>Topic</th>
+                                    </tr>
+                                </thead>
+                                <tbody style="text-align: center">
+                                    <tr style="background: #414042">
+                                        <td>8:30 - 9:00</td>
+                                        <td>Registration</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:15 - 9:55</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>10:00 - 10:40</td>
+                                        <td>Tech Talk</td>
+                                        <td>Kartik Mandaville</td>
+                                        <td>CEO, SpringWorks</td>
+                                        <td>Building a blockchain solution from <br> a technology perspective</td>
+                                    </tr>
+                                    <tr style="background: #141414">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">10:45 - 11:00/ Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>11:15 - 11:55</td>
+                                        <td>Tech talk</td>
+                                        <td>Munir Mohammed</td>
+                                        <td>Senior Programme Manager, IEEE</td>
+                                        <td>IEEE standards for blockchain</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:00 - 12:50</td>
+                                        <td>Tech Talk</td>
+                                        <td>Sanket Panchamia</td>
+                                        <td>Lead Blockchain Architect, Unisys Global Services India</td>
+                                        <td>Blockchain deployment for production applications using Hyperledger Fabric</td>
+                                    </tr>
+                                    <tr style="background: #141414">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">13:00 - 14:00 / Lunch Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 14:40</td>
+                                        <td>Super meetup</td>
+                                        <td>Aeternity Team</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>14:45 - 15:25</td>
+                                        <td>Tech talk</td>
+                                        <td>Souradyuti Paul</td>
+                                        <td>Associate Professor, IIT Bhilai</td>
+                                        <td>Security issues in Blockchain</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:30 - 16:30</td>
+                                        <td>Workshop</td>
+                                        <td>Om Malviya<br>
+                                            Jignesh Vasoya </td>
+                                        <td>Director, Tezos India Foundation<br>
+                                            Full Stack Engineer, Tezos</td>
+                                        <td>Brief introduction to smart contracts deployment and interaction on tezos</td>
+                                    </tr>
+                                    <tr style="background: #141414;">
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none">16:30 - 16:45 / Break</td>
+                                        <td style="border-left:none"></td>
+                                        <td style="border-left:none"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:45 - 17:15</td>
+                                        <td>Workshop</td>
+                                        <td>Blockstack India Evangelist</td>
+                                        <td></td>
+                                        <td>Blockstack intro section</td>
+                                    </tr>
+                                    <tr style="background: #414042">
+                                        <td>17:15 - 17:55</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 18:40</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                   </div>
+                </div>
+              </div>
+            </div>
+
+      </div>
+    
+      <div class="col-12 text-center">
+        <a href="{%  static 'img/Agenda_GenesisDevCon .pdf' %}" download ><button type="button" class="btn btn-common">Download Agenda</button></a>
+      </div>
+
+ </div>
+</section>
+{% endblock %}

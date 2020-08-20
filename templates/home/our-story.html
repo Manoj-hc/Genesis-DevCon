@@ -1,0 +1,39 @@
+{% extends 'home/base.html' %}
+
+{% load static %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/ourstory.css' %}">
+{% endblock %}
+
+{% block content %}
+<section id="story-info" class="section-padding">
+  <div class="story-container">
+    <h2 class="wow fadeInUp" data-wow-delay="0.2s">OUR STORY</h2>
+    <p class="wow fadeInDown" data-wow-delay="0.2s">Genesis DevCon is the concluding chapter of the Genesis developer
+      program. We started this program with the aim of creating the world’s largest emerging tech ecosystem out of
+      India. After a successful International Blockchain Congress, we identified the lack of blockchain developers in
+      India as a problem area. We have spent the last 8 months creating one of the most vibrant blockchain developer
+      communities in the world. </p>
+    <p class="wow fadeInDown" data-wow-delay="0.3s">At Genesis DevCon, we aim to create a learning environment for
+      budding blockchain developers, by bringing the best speakers from industry, community and academia. The event
+      will also see the launch of India’s first corporate blockchain accelerator, as well as the winners of the Genesis
+      developer program. </p>
+    <p class="wow fadeInDown" data-wow-delay="0.4s">“Blockchain has a sense of community, which has been a hallmark of
+      most disruptive technologies that we have seen over the past decade. Many of these communities originated from
+      India and we are proud that we had a part to play in building the biggest blockchain developer community in
+      India. Genesis DevCon will be a testament to India’s potential in blockchain,” says Raghu Mohan, CEO of IBC
+      Media. </p>
+    <p class="wow fadeInDown" data-wow-delay="0.5s">We are calling all blockchain and emerging tech enthusiasts to be a
+      part of this upcoming community, and as community organisers, we will ensure that you, our audience, get the best
+      experience possible at our platforms and events. </p>
+      <br>
+      <br>
+      {% comment %}
+      <a ><button onclick="popup('genesis-devcon-2019-302403');" class="btn btn-common"><span>Buy Tickets </span></button></a>
+
+      <noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+      {% endcomment %}
+    </div>
+</section>
+{% endblock %}

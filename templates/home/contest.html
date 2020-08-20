@@ -1,0 +1,39 @@
+{% extends 'home/base.html' %}
+
+{% load static %}
+
+{% block extracss %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/contest.css' %}">
+{% endblock %}
+
+
+{% block content %}
+<section id="contest" class="section-padding">
+        <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-title-header text-center">
+                      <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Twitter Contest</h1>
+                    </div>
+                  </div>
+                </div>
+
+                
+                    <div class="row">
+                        <div class="col-12">
+                         <div class="contest-info  wow fadeInDown" data-wow-delay="0.2s">
+                            <h4>Instructions:</h4>
+                            <p>1) Click on the tweet button below.</p>
+                            <p>2) Replace " your text goes here " with something that you learnt today at Genesis DevCon. </p>
+                            <p>3) Tweet it out and get a chance to win a Genesis DevCon Goodies Bag !</p>
+                         </div>
+                         <div class="contest-btn">
+                          <a target="_blank" href="https://ctt.ac/YvAe0"><img src="http://clicktotweet.com/img/tweet-graphic-4.png" alt="Tweet: at #GenesisDevCon * Your message goes here * #TIL " /></a>
+                        </div>
+                      </div>
+                </div>
+
+        </div>
+
+</section>
+{% endblock %}

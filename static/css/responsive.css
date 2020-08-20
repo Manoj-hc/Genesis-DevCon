@@ -1,0 +1,1471 @@
+/* only Large laptops */
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+  #event p{
+    font-size:24px;
+  }
+  
+  #event .text-para {
+    font-size: 28px;
+  }
+
+  #event .col-lg-8{
+    position: relative;
+    left: 13%;
+    margin: 5px;
+  }
+}
+
+/* only small desktops */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  #hero-area .contents .head-title {
+    font-size: 40px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 10px;
+  }
+  .single-intro-text h3 {
+    font-size: 18px;
+  }
+  .counter-section .counter p {
+    font-size: 14px;
+  }
+  .schedule .card .schedule-slot-time {
+    padding: 38px 22px;
+  }
+  #pricing .price-block-wrapper .pricing-list {
+    padding: 10px 35px 10px 45px;
+  }
+  .blog-item .descr h3 a {
+    font-size: 16px;
+  }
+
+/* event section*/
+#event h2{
+  font-size: 32px;
+}
+
+#event p{
+  font-size:23px;
+}
+
+#event .text-para {
+  font-size: 25px;
+}
+#event .col-lg-8{
+  position: relative;
+  left: 3%;
+  top:20px;
+  margin: 5px;
+}
+#event .col-lg-3{
+  height: 230px;
+  position: relative;
+  left: 5px;
+}
+ /* speaker section*/
+.team-item {
+  height: 400px;
+}
+
+.team-item .info-text p{
+  font-size: 13px;
+}
+
+ /* attend section*/
+ #about{
+   height: 500px;
+ }
+ #about img{
+  height: 120px;
+  width:140px;
+ }
+ #about p {
+  font-size: 20px;
+ }
+ 
+   /* story section*/
+   #story p{
+     font-size: 23px;
+   }
+}
+
+/* ipads */
+@media (min-width: 992px) and (max-width: 1024px){
+
+  #hero-area .contents .head-title {
+    font-size: 38px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 10px;
+  }
+  .single-intro-text h3 {
+    font-size: 18px;
+  }
+  .counter-section .counter p {
+    font-size: 14px;
+  }
+  .schedule .card .schedule-slot-time {
+    padding: 38px 22px;
+  }
+  #pricing .price-block-wrapper .pricing-list {
+    padding: 10px 35px 10px 45px;
+  }
+  .blog-item .descr h3 a {
+    font-size: 16px;
+  }
+
+/* event section*/
+#event h2{
+  font-size: 30px;
+}
+
+#event p{
+  font-size:19px;
+}
+
+#event .text-para {
+  font-size: 21px;
+}
+.event-container .row{
+  margin: 10px;
+  padding: 5px;
+}
+#event .col-lg-8{
+  position: relative;
+  left: 5%;
+  top:20px;
+  margin: 5px;
+}
+#event .col-lg-3{
+  height: 220px;
+  position: relative;
+  left: 3%;
+}
+ /* speaker section*/
+.team-item {
+  height: 400px;
+}
+
+.team-item .info-text p{
+  font-size: 13px;
+}
+
+ /* attend section*/
+ #about{
+  height: 500px;
+}
+ #about img{
+  height: 120px;
+  width:140px;
+ }
+ #about p {
+  font-size: 20px;
+ }
+  
+   /* story section*/
+   #story p{
+     font-size: 23px;
+   }
+}
+
+
+
+
+/* tablets */
+@media (max-width: 991px) {
+  .page-title-section {
+    padding: 40px 0;
+  }
+  .section-titile-bg {
+    display: none;
+  }
+  .section-title {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .about-item {
+    margin-bottom: 30px;
+  }
+  .accordion .header-title {
+    font-size: 12px;
+  }
+  .schedule .schedule-tab-title .nav-tabs .nav-link {
+    width: 150px;
+  }
+  .schedule .card-header h4 {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  #pricing .price-block-wrapper .pricing-list {
+    padding: 10px 35px 10px 45px;
+  }
+ 
+
+  
+/* event section*/
+#event h2{
+  font-size: 28px;
+}
+
+ #event .btn{
+  font-size: 12px;
+  padding: 10px 25px;
+  line-height: 22px;
+}
+
+#event p{
+  font-size: 19px;
+  padding: 5px;
+}
+
+#event .text-para {
+  font-size: 22px;
+}
+.event-container .row{
+  margin: 10px;
+  padding: 5px;
+}
+
+#event .col-lg-3{
+  height: 210px;
+  width:230px;
+  position: relative;
+  left: 4%;
+}
+
+#event .col-md-8{
+  position: relative;
+  left: 9%;
+  top:20px;
+  margin: 5px;
+}
+
+ /* speaker section*/
+
+ .team-item{
+  height: 450px;
+  padding: 10px;
+ }
+ .team-item .info-text h3 {
+  font-size: 17px;
+}
+
+ .team-item .info-text p{
+  font-size: 13px;
+}
+ .team-item .team-img {
+   width: 250px;
+    height: 260px;
+    margin:  0 auto;
+    border: none;
+ }
+
+ #team h2 {
+   font-size: 50px;
+ }
+
+ #team .more p{
+   font-size: 22px;
+ }
+
+  /* attend section*/
+  #about{
+    height: 570px;
+  }
+  #about h2 {
+    font-size: 50px;
+  }
+  #about img{
+    height: 120px;
+    width:140px;
+    margin-top: 20px;
+   }
+   #about p {
+    font-size: 15px;
+    padding: 6px;
+    text-align:start;
+  margin-left: 30px;
+   }
+    /* agenda section*/
+   #agenda h1{
+  font-size: 50px;
+  }
+   
+/* sponsor section*/
+
+  #sponsors .spnsors-logo img {
+    width: 100%;
+  }
+  #sponsors h1{
+    font-size: 50px;
+  }
+  #sponsors .spnsors-logo {
+    padding: 10px;
+    margin-left:20px;
+  }
+  #sponsors h1{
+    margin-bottom: 10%;
+  }
+
+  /* partner section*/
+
+  #partners .partners-logo img {
+    width: 100%;
+  }
+  #partners h1{
+    font-size: 50px;
+  }
+  #partners .partners-logo {
+    padding: 10px;
+    margin-left:20px;
+  }
+  #partners h1{
+    margin-bottom: 10%;
+  }
+
+   /* story section*/
+   #story h2{
+     font-size: 50px;
+   }
+   #story p{
+    font-size: 21px;
+    padding: 8px;
+  }
+ 
+  .subscribe-inner h1 {
+    font-size: 50px;
+}
+.subscribe-inner .form-control {
+  font-size: 22px;
+}
+.subscribe-inner .form-inline {
+  position: relative;
+  left: 0px;
+}
+
+}
+
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #hero-area .contents .head-title {
+    font-size: 36px;
+  }
+  #information-bar ul {
+    text-align: left;
+    margin: 10px;
+  }
+  .about-content .about-text h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .single-intro-text h3 {
+    font-size: 18px;
+  }
+  .countdown-timer .heading-count h2 {
+    font-size: 25px;
+  }
+  .schedule .card-header {
+    padding: 20px 40px 35px 180px;
+  }
+  .schedule .card .schedule-slot-time {
+    font-size: 14px;
+    padding: 29px;
+    max-width: 22%;
+  }
+  .schedule .schedule-tab-title .nav-tabs .nav-link {
+    width: 150px;
+  }
+  .schedule .card-header h4 {
+    font-size: 14px;
+  }
+  .counter-section .counter {
+    margin-bottom: 30px;
+  }
+  #pricing .price-block-wrapper .pricing-list {
+    padding: 10px 35px 10px 60px;
+  }
+  .about-item {
+    margin-bottom: 30px;
+  }
+  .accordion .header-title {
+    font-size: 12px;
+  }
+  #pricing .price-block-wrapper .pricing-list {
+    padding: 10px 60px 10px 45px;
+  }
+  #sponsors .spnsors-logo {
+    padding: 35px;
+  }
+  #event-up .event-item {
+    margin-bottom: 20px;
+  }
+  .footer-area h3 {
+    margin-top: 30px;
+  }
+
+  
+/* event section*/
+#event h2{
+  font-size: 28px;
+}
+.event-container{
+  position: relative;
+  height: 230px;
+  margin: 10px;
+  padding: 4px;
+}
+
+#event .btn{
+  font-size: 12px;
+  padding: 8px 22px;
+  line-height: 21px;
+}
+
+#event p{
+  font-size: 19px;
+  padding: 5px;
+}
+
+#event .text-para {
+  font-size: 22px;
+}
+.event-container .row{
+  margin: 5px;
+  padding: 0px;
+}
+
+#event .col-lg-3{
+  height: 190px;
+  width:220px;
+  position: relative;
+  left:4%;
+}
+
+#event .col-sm-6{
+  position: relative;
+  left: 9%;
+  top:15px;
+  margin: 5px;
+}
+
+/* speaker section*/
+
+.team-item{
+  height: 450px;
+  width: 300px;
+  padding: 8px;
+ }
+
+ 
+  /* attend section*/
+  #about{
+    height: 570px;
+  }
+  #about h2 {
+    font-size: 50px;
+  }
+  #about img{
+    height: 120px;
+    width:140px;
+    margin-top: 20px;
+   }
+   #about p {
+    font-size: 15px;
+    padding: 6px;
+    text-align:start;
+  margin-left: 30px;
+   }
+
+  /* sponsor section*/
+  
+  #sponsors h1{
+    font-size: 50px;
+  }
+  #sponsors .spnsors-logo {
+    padding: 10px;
+    margin-left:25px;
+  }
+
+  #sponsors .spnsors-logo img{
+    width: 100%;
+  }
+ 
+  #sponsors h1{
+    margin-bottom: 10%;
+  }
+  #sponsors .btn{
+    width:140px;
+    font-size: 11px;
+    border-radius: 25px;
+    padding: 10px 15px;
+  }
+
+   /* partner section*/
+   
+  #partners h1{
+    font-size: 50px;
+  }
+  #partners .partners-logo {
+    padding: 10px;
+    margin-left:25px;
+  }
+
+  #partners .partners-logo img{
+    width: 100%;
+  }
+ 
+  #partners h1{
+    margin-bottom: 10%;
+  }
+  /* our story */
+  #story h2{
+    font-size: 50px;
+  }
+  #story p{
+   font-size: 21px;
+   padding: 8px;
+ }
+ #story .btn{
+  width:140px;
+  font-size: 11px;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+ /* agenda section*/
+ #agenda h1{
+  font-size: 50px;
+}
+.subscribe-inner h1 {
+  font-size: 50px;
+}
+.subscribe-inner .form-control {
+  font-size: 22px;
+}
+.subscribe-inner .form-inline {
+position: relative;
+left: 0px;
+}
+}
+
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 22px;
+  }
+  .section-sub {
+    font-size: 16px;
+  }
+  #hero-area .contents {
+    padding: 100px 0;
+  }
+  #hero-area .contents .head-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #hero-area .contents .btn-date {
+    font-size: 12px;
+  }
+  #hero-area .contents .btn {
+    margin: 25px 3px 0 0;
+  }
+  #hero-area .contents .banner-info {
+    font-size: 14px;
+  }
+  #hero-area .contents .banner-desc {
+    padding: 0 10px;
+  }
+  #information-bar ul {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .about-content .about-text h2 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .about-content ul li {
+    font-size: 12px;
+  }
+  .time-entry {
+    width: 50%;
+    font-size: 14px;
+  }
+  .time-entry span {
+    font-size: 30px;
+  }
+  .time-entry b {
+    display: none;
+  }
+  .counter-section .counter {
+    margin-bottom: 30px;
+  }
+  .schedule .nav-tabs .nav-item {
+    margin: 15px 0px;
+  }
+  .schedule .nav-tabs .nav-link {
+    padding: 12px 10px;
+  }
+  .schedule .item-text h5 {
+    font-size: 12px;
+  }
+  .schedule .card-body {
+    padding: 15px;
+  }
+  .schedule .card .schedule-slot-time {
+    display: none;
+  }
+  .schedule .card-header {
+    padding: 30px;
+  }
+  .schedule .schedule-tab-title .nav-tabs .nav-link {
+    width: 288px;
+  }
+  #event-up .event-item {
+    margin-bottom: 30px;
+  }
+  #pricing .price-block-wrapper .pricing-list {
+    padding: 10px 30px 10px 40px;
+  }
+ 
+  .blog-item .descr h3 a {
+    font-size: 18px;
+  }
+  .container-form .form-wrapper {
+    padding: 20px;
+  }
+  .contact-item {
+    margin-bottom: 40px;
+  }
+  #sponsors .spnsors-logo img {
+    width: 100%;
+  }
+  #contact-text ul {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .subscribe-inner .subscribe-title {
+    font-size: 16px;
+  }
+  .subscribe-inner .subscribe-title::before {
+    left: 40%;
+  }
+  .subscribe-inner .sub-btn {
+    width: 9rem;
+    min-width: 5rem;
+    padding: 18px 20px;
+  }
+  /* Event section*/
+    .event-container{
+      height: 350px;
+      position: relative;
+      bottom:20px;
+      padding: 5px;
+      margin: 10px;
+    }
+    
+    .event-container .row{
+    height: 300px;
+    margin: 5px;
+    padding: 0px;
+    }
+/* Logo*/
+    .navbar-brand img {
+
+      width: 230px;
+      height: 104px;
+    }
+    .subscribe-inner h1 {
+      font-size: 40px;
+    }
+    .subscribe-inner .form-control {
+      font-size: 20px;
+    }
+    .subscribe-inner .form-inline {
+      width: 100%;
+    }
+    #agenda h1{
+      font-size: 40px;
+    }
+    .agenda-info{
+      margin-top: 30px;
+      padding-top: 30px;
+    }
+    .carousel-control-prev {
+      margin-left: -70px;
+    }
+    
+    .carousel-control-next {
+      margin-right: -70px;
+    }
+    .custom-social-proof .custom-notification .custom-notification-container {
+      display: none !important;
+    }
+    .custom-social-proof2 .custom-notification .custom-notification-container {
+      display: none !important;
+    }
+    .custom-social-proof3 .custom-notification .custom-notification-container {
+      display: none !important;
+    }
+    .custom-social-proof4 .custom-notification .custom-notification-container {
+      display: none !important;
+    }
+    .custom-social-proof5 .custom-notification .custom-notification-container {
+      display: none !important;
+    }
+  }
+
+
+@media (min-width:575px) and (max-width: 767px) {
+  /* Event section*/
+
+  #event h2{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  #event p{
+    font-size: 19px;
+  }
+  
+  .event-container{
+    height: 350px;
+    position: relative;
+    bottom:20px;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  #event .col-lg-3{
+    height: 50px;
+    width:280px;
+    position: relative;
+    top:-12px;
+    left:20%;
+    border: none;
+  }
+  
+  #event .col-xs-12{
+    position: relative;
+    width: 500px;
+    top:20px;
+    margin: 6px;
+    left:0px;
+    margin: 0 40px;
+  
+  }
+  
+  #event .text-para {
+    font-size: 21px;
+  }
+  
+  #event .btn{
+    top:240px;
+    left: 80px;
+    font-size: 12px;
+    padding: 8px 22px;
+    line-height: 21px;
+  
+  }
+  
+/* speaker section*/
+#team h2{
+  font-size: 40px;
+}
+.team-item{
+  height: 450px;
+  width: 350px;
+  padding: 8px;
+  position: relative;
+  left: 50px;
+ }
+ .team-item .team-img {
+  border: none;
+   }
+
+/* attend section*/
+#about{
+  height: 520px;
+}
+#about h2{
+  font-size: 40px;
+}
+#about img{
+ position: relative;
+ left:35%;
+ height: 80px;
+ width:100px;
+ }
+ #about p {
+  font-size: 15px;
+text-align:center;
+margin-left:0px;
+ }
+.section-padding{
+  padding: 40px 0;
+}
+
+
+
+/* sponsor section*/
+
+#sponsors h1{
+  font-size: 40px;
+}
+#sponsors .spnsors-logo {
+padding: 0px;
+position: relative;
+border: none;
+margin-bottom: 40px;
+ }
+ #sponsors .spnsors-logo:hover {
+  border: none;
+}
+
+#sponsors .spnsors-logo img{
+  width:100%;
+}
+
+#sponsors h1{
+  margin-bottom: 10%;
+}
+#sponsors .btn{
+  width:140px;
+  font-size: 11px;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+
+/* partner section*/
+
+#partners h1{
+  font-size: 40px;
+}
+#partners .partners-logo {
+padding: 0px;
+position: relative;
+border: none;
+margin-bottom: 40px;
+ }
+ #partners .partners-logo:hover {
+  border: none;
+}
+
+#partners .partners-logo img{
+  width:100%;
+}
+
+#partners h1{
+  margin-bottom: 10%;
+}
+ /* our story */
+ #story h2{
+  font-size: 40px;
+}
+#story p{
+ font-size: 15px;
+ padding: 8px;
+}
+#story .btn{
+width:140px;
+font-size: 11px;
+border-radius: 25px;
+padding: 10px 15px;
+}
+.subscribe-inner h1 {
+  font-size: 40px;
+}
+.subscribe-inner .form-control {
+  font-size: 20px;
+}
+.subscribe-inner .form-inline {
+  width: 100%;
+}
+#agenda h1{
+  font-size: 35px;
+}
+.agenda-info{
+  margin-top: 20px;
+}
+.carousel-control-prev {
+  margin-left: -70px;
+}
+
+.carousel-control-next {
+  margin-right: -70px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  height: 30px;
+  width: 30px;
+}
+}
+
+
+@media (min-width: 460px) and (max-width: 575px) {
+  .btn {
+    padding: 5px 7px;
+    font-size: 13px;
+  }
+  /* Event section*/
+
+  #event h2{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  #event p{
+    font-size: 16px;
+  }
+  
+  .event-container{
+    height: 350px;
+    position: relative;
+    bottom:20px;
+    padding:2px;
+    margin: 5px;
+  }
+  
+  #event .col-lg-3{
+    height: 50px;
+    width:280px;
+    position: relative;
+    top:-12px;
+    left:20%;
+    border: none;
+  }
+  
+  #event .col-xs-12{
+    position: relative;
+    width: 500px;
+    top:20px;
+    margin: 6px;
+    left:30px;
+  
+  }
+  
+  #event .text-para {
+    font-size: 18px;
+  }
+  
+  #event .btn{
+    top:240px;
+    left: 50px;
+    font-size: 12px;
+    padding: 8px 22px;
+    line-height: 21px;
+  }
+  /* counter section*/
+  #count .count-wrapper{
+    position: relative;
+    left: 30px;
+  }
+
+  /* speaker section*/
+#team h2{
+  font-size: 35px;
+}
+.team-item{
+  height: 450px;
+  width: 340px;
+  padding: 8px;
+  position: relative;
+  left: 90px;
+ }
+ .team-item .team-img {
+border: none;
+ }
+  /* attend section*/
+  #about{
+    height:650px ;
+  }
+  #about h2{
+    font-size:35px;
+  }
+  #about img{
+  position: relative;
+   height: 80px;
+   width:100px;
+   left:40%;
+   }
+   #about p {
+    font-size: 15px;
+  text-align:center;
+  margin-left:0px;
+   }
+  
+
+.section-padding{
+  padding: 20px;
+}
+
+  /* sponsor section*/
+
+#sponsors h1{
+  font-size: 35px;
+}
+#sponsors .spnsors-logo {
+padding: 15px;
+margin-bottom: 20px;
+border: none;
+text-align: center;
+ }
+ #sponsors .spnsors-logo:hover {
+  border: none;
+}
+#sponsors .spnsors-logo img{
+  width: 70%;
+}
+
+#sponsors h1{
+  margin-bottom: 10%;
+}
+#sponsors .btn{
+  width:120px;
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+ /* partner section*/
+
+ #partners h1{
+  font-size: 35px;
+}
+#partners .partners-logo {
+padding: 15px;
+margin-bottom: 20px;
+border: none;
+text-align: center;
+ }
+ #partners .partners-logo:hover {
+  border: none;
+}
+#partners .partners-logo img{
+  width: 70%;
+}
+
+#partners h1{
+  margin-bottom: 10%;
+}
+/* our story */
+#story h2{
+  font-size: 35px;
+}
+#story p{
+ font-size: 14px;
+ padding: 8px;
+ letter-spacing: 1.5px;
+}
+
+#story .btn{
+width:120px;
+font-size: 10px;
+border-radius: 20px;
+padding: 10px;
+}
+.subscribe-inner h1 {
+  font-size: 35px;
+}
+.subscribe-inner .form-control {
+  font-size: 20px;
+}
+#agenda h1{
+  font-size: 35px;
+}
+.agenda-info{
+  margin-top: 20px;
+}
+.carousel-control-prev {
+  margin-left: -55px;
+}
+
+.carousel-control-next {
+  margin-right: -55px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  height: 30px;
+  width: 30px;
+}
+}
+@media (max-width: 535px) {
+  .btn {
+    padding: 5px 7px;
+    font-size: 13px;
+  }
+  /* Event section*/
+
+  #event h2{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  #event p{
+    font-size: 15px;
+  }
+  
+  .event-container{
+    height: 350px;
+    position: relative;
+    bottom:20px;
+    padding:2px;
+    margin: 5px;
+  }
+  
+  #event .col-lg-3{
+    height: 50px;
+    width:280px;
+    position: relative;
+    top:-12px;
+    left:20%;
+    border: none;
+  }
+  
+  #event .col-xs-12{
+    position: relative;
+    width: 500px;
+    top:20px;
+    margin: 6px;
+    left:30px;
+  
+  }
+  
+  #event .text-para {
+    font-size: 17px;
+  }
+  
+  #event .btn{
+    top:240px;
+    left: 50px;
+    font-size: 12px;
+    padding: 8px 22px;
+    line-height: 21px;
+  }
+
+  /* speaker section*/
+#team h2{
+  font-size: 35px;
+}
+.team-item{
+  height: 450px;
+  width: 340px;
+  padding: 8px;
+  position: relative;
+  left: 70px;
+ }
+ .team-item .team-img {
+border: none;
+ }
+  /* attend section*/
+  #about{
+    height:650px ;
+  }
+  #about h2{
+    font-size:35px;
+  }
+  #about img{
+  position: relative;
+   height: 80px;
+   width:100px;
+   left:40%;
+   }
+   #about p {
+    font-size: 15px;
+  text-align:center;
+  margin-left:0px;
+   }
+  
+   
+.section-padding{
+  padding: 20px;
+}
+
+  /* sponsor section*/
+
+#sponsors h1{
+  font-size: 35px;
+}
+#sponsors .spnsors-logo {
+padding: 15px;
+margin-bottom: 20px;
+border: none;
+text-align: center;
+ }
+ #sponsors .spnsors-logo:hover {
+  border: none;
+}
+#sponsors .spnsors-logo img{
+  width: 80%;
+}
+
+#sponsors h1{
+  margin-bottom: 10%;
+}
+#sponsors .btn{
+  width:120px;
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+ /* partner section*/
+
+ #partners h1{
+  font-size: 35px;
+}
+#partners .partners-logo {
+padding: 15px;
+margin-bottom: 20px;
+border: none;
+text-align: center;
+ }
+ #partners .partners-logo:hover {
+  border: none;
+}
+#partners .partners-logo img{
+  width: 80%;
+}
+
+#partners h1{
+  margin-bottom: 10%;
+}
+/* our story */
+#story h2{
+  font-size: 35px;
+}
+#story p{
+ font-size: 14px;
+ padding: 8px;
+ letter-spacing: 1.5px;
+}
+
+#story .btn{
+width:120px;
+font-size: 10px;
+border-radius: 20px;
+padding: 10px;
+}
+.subscribe-inner h1 {
+  font-size: 30px;
+}
+.subscribe-inner .form-control {
+  font-size: 18px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+
+  .btn {
+    padding: 5px 7px;
+    font-size: 13px;
+  }
+  /* Event section*/
+
+  #event h2{
+    font-size: 23px;
+    text-align: center;
+  }
+  
+  #event p{
+    font-size: 11px;
+  }
+  
+  #event .text-para {
+    font-size: 13px;
+  }
+
+  #event .col-lg-3{
+    height: 50px;
+    width:280px;
+    position: relative;
+    top:-12px;
+    left:10%;
+    border: none;
+  }
+  
+  #event .col-xs-12{
+    position: relative;
+    width: 500px;
+    top:20px;
+    margin: 3px;
+    left:10px;
+  
+  }
+  
+  #event .btn{
+    top:240px;
+    left: 30px;
+    font-size: 12px;
+    padding: 8px 22px;
+    line-height: 21px;
+  }
+
+/* speaker section*/
+  #team h2{
+  font-size: 32px;
+}
+.team-item {
+  height: 450px;
+  width: 310px;
+  padding: 5px;
+  position: relative;
+  left:5px;
+}
+
+
+#team .more p{
+  font-size: 15px;
+}
+
+ /* attend section*/
+ #about{
+  height:670px ;
+}
+#about h2{
+  font-size:32px;
+}
+#about p {
+  font-size: 13px;
+  text-align:center;
+  margin-left:0px;
+ }
+
+
+  /* sponsor section*/
+
+#sponsors h1{
+  font-size: 32px;
+}
+#sponsors .spnsors-logo {
+padding: 10px;
+margin-bottom: 15px;
+border: none;
+text-align: center;
+ }
+ #sponsors .spnsors-logo:hover {
+  border: none;
+}
+#sponsors .spnsors-logo img{
+  width: 80%;
+}
+
+#sponsors h1{
+  margin-bottom: 10%;
+}
+#sponsors .btn{
+  width:110px;
+  font-size: 9px;
+  border-radius: 18px;
+  padding: 8px 8px;
+}
+
+
+  /* partner section*/
+
+  #partners h1{
+    font-size: 32px;
+  }
+  #partners .partners-logo {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  text-align: center;
+   }
+   #partners .partners-logo:hover {
+    border: none;
+  }
+  #partners .partners-logo img{
+    width: 80%;
+  }
+  
+  #partners h1{
+    margin-bottom: 10%;
+  }
+
+/* our story */
+#story h2{
+  font-size: 32px;
+}
+#story p{
+ font-size: 12px;
+ padding: 8px;
+ letter-spacing: 1.5px;
+}
+
+#story .btn{
+width:110px;
+font-size: 10px;
+border-radius: 15px;
+padding: 8px;
+}
+
+#story .img-container{
+  position: relative;
+  right: 50px;
+}
+#story .img-container img{
+  width: 200px;
+  height: 90px;
+}
+.subscribe-inner h1 {
+  font-size: 28px;
+}
+.subscribe-inner .form-control {
+  font-size: 12px;
+  height: 50px;
+  width: 55%;
+  left: 50px;
+}
+.subscribe-inner .sub-btn {
+  height: 50px;
+  font-size: 12px;
+  padding: 8px 10px;
+}
+
+element.style {
+  padding-bottom: 20px;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+#agenda h1{
+  font-size: 32px;
+}
+.agenda-info{
+  margin-top: 10px;
+}
+.carousel-control-prev {
+  margin-left: -40px;
+}
+
+.carousel-control-next {
+  margin-right: -40px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  height: 20px;
+  width: 20px;
+}
+
+}
+@media (max-width: 410px) {
+  .subscribe-inner .form-control {
+    font-size: 10px;
+    height: 40px;
+    width: 52%;
+    left: 40px;
+}
+  .subscribe-inner .sub-btn {
+    height: 40px;
+    font-size: 12px;
+    width: 110px;
+}
+}
+@media (max-width: 375px) {
+  .subscribe-inner .form-control {
+    font-size: 7px;
+  }
+}

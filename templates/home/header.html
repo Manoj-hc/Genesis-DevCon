@@ -1,0 +1,114 @@
+{% load static %}
+
+<!-- Header Area wrapper Starts -->
+<header id="header-wrap">
+  {% if show_earth_video %}
+  <div class="overlay">
+    <video id="bgvid" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="{% static 'img/RevolveEarth.MP4' %}" type="video/mp4">
+    </video>
+  </div>
+  {% endif %}
+
+  {% if cover_image %}
+  <div class="img-speaker">
+  <img class=img-fluid src="{% static cover_image %}" alt="" >
+  </div>
+  {% endif %}
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
+    <div class="container">
+
+      <a href="{% url 'home' %}" class="navbar-brand"><img src="{% static 'img/DevCon-Logo.png' %}" alt="Genesis DevCon"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="lni-menu"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'home' %} " style="font-weight: 700">
+              Home
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#about">
+              Why attend
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'agenda' %}">
+              Agenda
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  " href="#intro">
+              Join us
+              <i class="lni-chevron-down"> </i>
+            </a>
+
+            <ul class="dropdown">
+              <li class="nav-item"><a class="sub-nav-link" href="{% url 'speakers' %}">Speaker</a></li>
+              <li class="nav-item"><a class="sub-nav-link" href="{% url 'sponsors' %}">Sponsor</a></li>
+              <li class="nav-item"><a class="sub-nav-link" href="{% url 'attendees' %}">Attendees</a></li>
+            </ul>
+          </li>
+          {% comment %}
+          <li class="nav-item">
+            <a class="nav-link" href="#schedules">
+              Testimonials
+            </a>
+          </li>
+          {% endcomment %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'our-story' %}">
+              Our story
+            </a>
+          </li>
+
+          {% comment %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'contest' %}">
+              Contest
+            </a>
+          </li>
+         {% endcomment %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  {% if show_buy_tickets %}
+  <!-- Hero Area Start -->
+  <div id="event">
+    <div class="event-container">
+      <div class="row">
+        <div class="col-lg-3">
+          <h2>NSSC,IISc, Bangalore</h2>
+          <h2>Nov 24 & 25</h2>
+          {% comment %}
+          <a ><button onclick="popup('genesis-devcon-2019-302403');" class="btn btn-common"><span>Buy Tickets </span></button></a>
+
+         <noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+         {% endcomment %}
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+          <p class="wow fadeInDown" data-wow-delay="0.2s"> Is Blockchain just disrupting the <span id="js-rotating"
+              class="text-para"> Banking, Technology, Supply Chain</span> industry? </p>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">Or is it paving the way for something more significant?</p>
+          <p class="wow fadeInDown" data-wow-delay="0.2s"> Meet the people powering this movement at Genesis DevCon.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  <!-- Hero Area End -->
+</header>
+
+{% if show_earth_video %}
+{% block extrajs %}
+<script src="{% static 'js/video.js' %}"></script>
+{% endblock %}
+{% endif %}
+<!-- Header Area wrapper End -->
