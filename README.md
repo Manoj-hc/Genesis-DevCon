@@ -18,7 +18,7 @@ Before proceeding, please make sure you have python 3.6.6 installed.
 ### Clone the repo
 
 ```
-git clone git@github.com:ravi-ojha/ibc-django.git
+git@github.com:Manoj-hc/Genesis-DevCon.git
 ```
 
 ### Create a virtual environment
